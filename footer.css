@@ -3,7 +3,7 @@
 
 
 /*=============== VARIABLES CSS ===============*/
-.footer {
+footer {
   --header-height: 3.5rem;
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
@@ -26,11 +26,11 @@
   --z-tooltip: 10;
   --z-fixed: 100;
   /*========== width & height ==========*/
-  --main-navbar-width: 70rem;
+  --main-navbar-width: 100rem;
 }
 
 @media screen and (max-width: 1024px) {
-  .footer {
+  footer {
     --normal-font-size: .9rem;
     --small-font-size: .813rem;
     --smaller-font-size: .75rem;
@@ -42,6 +42,12 @@
   padding: 0;
   box-sizing: border-box;
   font-family: var(--body-font);
+}
+
+footer {
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  color: var(--text-color);
 }
 
 .footer {
